@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>for github only</h1>
+      <h2>this is me</h2>
+      <img src="https://www.4webs.es/blog/wp-content/uploads/2019/02/urls-que-es-800x420.jpg" alt="someImage" />
     </div>
   );
 }
